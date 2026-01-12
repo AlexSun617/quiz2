@@ -65,14 +65,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "1990s The TCP/IP model consists of the Application, Network, Link and which other",
+              "text": "1990s ",
               "correct": true
             }
           ],
           "multi": false
         },
         {
-          "question": "layer?",
+          "question": "The TCP/IP model consists of the Application, Network, Link and which other layer?",
           "options": [
             {
               "text": "Transport",
@@ -153,14 +153,14 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "It is possible for both to co-exist only if all network routers are provided by the same vendor. Before IP networks were established as multiservice networks (‘One IP",
+              "text": "It is possible for both to co-exist only if all network routers are provided by the same vendor.",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "network’), how were networks built?",
+          "question": "Before IP networks were established as multiservice networks (‘One IP network’), how were networks built?",
           "options": [
             {
               "text": "Individual networks were built using systems from only one vendor each.",
@@ -241,14 +241,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "They are used by the Network layer to determine whether to drop packets. If the TCP transport protocol is used when the end-to-end network is suffering from a relatively high number of bit errors, what could you do to try to increase",
+              "text": "They are used by the Network layer to determine whether to drop packets.",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "throughput while maintaining data integrity?",
+          "question": "If the TCP transport protocol is used when the end-to-end network is suffering from a relatively high number of bit errors, what could you do to try to increase throughput while maintaining data integrity?",
           "options": [
             {
               "text": "Increase Window size.",
@@ -256,11 +256,11 @@ window.QUESTION_BANK = {
             },
             {
               "text": "Decrease Window size.",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Use the BGP transport protocol instead of TCP.",
-              "correct": true
+              "correct": false
             },
             {
               "text": "Use the UDP transport protocol instead of TCP.",
