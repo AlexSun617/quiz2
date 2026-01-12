@@ -3,7 +3,6 @@ window.QUESTION_BANK = {
     {
       "id": "ip",
       "title": "IP",
-      "count": 16,
       "questions": [
         {
           "question": "Why do many IP networks use a ‘meshed’ topology?",
@@ -21,7 +20,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "To avoid loops forming.",
+              "text": ". To avoid loops forming.",
               "correct": false
             }
           ],
@@ -35,7 +34,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "The ISOnet in the USA.",
+              "text": ". The ISOnet in the USA.",
               "correct": false
             },
             {
@@ -65,7 +64,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "1990s ",
+              "text": "1990s",
               "correct": true
             }
           ],
@@ -123,7 +122,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "IP is a modern protocol developed specifically to support 21st century applications.",
+              "text": ". IP is a modern protocol developed specifically to support 21st century applications.",
               "correct": false
             },
             {
@@ -145,7 +144,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "It is not possible - you must use one or the other, but not both.",
+              "text": ". It is not possible - you must use one or the other, but not both.",
               "correct": false
             },
             {
@@ -241,7 +240,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "They are used by the Network layer to determine whether to drop packets.",
+              "text": ". They are used by the Network layer to determine whether to drop packets.",
               "correct": false
             }
           ],
@@ -251,7 +250,7 @@ window.QUESTION_BANK = {
           "question": "If the TCP transport protocol is used when the end-to-end network is suffering from a relatively high number of bit errors, what could you do to try to increase throughput while maintaining data integrity?",
           "options": [
             {
-              "text": "Increase Window size.",
+              "text": ". Increase Window size.",
               "correct": false
             },
             {
@@ -285,21 +284,15 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Application, TCP, IP, Link",
-              "correct": false
-            }
-          ],
-          "multi": false
-        },
-        {
-          "question": "Which standards body is responsible for Internet standards?",
-          "options": [
-            {
-              "text": "The Internet Standards Forum.",
+              "text": "Application, TCP, IP, Link Which standards body is responsible for Internet standards?",
               "correct": false
             },
             {
-              "text": "The Internet Engineering Forum.",
+              "text": ". The Internet Standards Forum.",
+              "correct": false
+            },
+            {
+              "text": ". The Internet Engineering Forum.",
               "correct": false
             },
             {
@@ -307,11 +300,11 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "The Internet Protocol Task Force.",
+              "text": ". The Internet Protocol Task Force.",
               "correct": false
             }
           ],
-          "multi": false
+          "multi": true
         },
         {
           "question": "Why does the Network Time Protocol use UDP?",
@@ -362,7 +355,6 @@ window.QUESTION_BANK = {
     {
       "id": "ipsec",
       "title": "IPSEC",
-      "count": 14,
       "questions": [
         {
           "question": "Which is a security principle from the CIA Triad?",
@@ -390,19 +382,19 @@ window.QUESTION_BANK = {
           "question": "Working with the CIA Triad usually requires...",
           "options": [
             {
-              "text": "prioritizing the Triad principles in their order (C-I-A).",
+              "text": "...prioritizing the Triad principles in their order (C-I-A).",
               "correct": false
             },
             {
-              "text": "balancing the Triad principles.",
+              "text": "..balancing the Triad principles.",
               "correct": true
             },
             {
-              "text": "making sure to meet all Triad principles fully.",
+              "text": "..making sure to meet all Triad principles fully.",
               "correct": false
             },
             {
-              "text": "choosing one of the principles according to business objectives.",
+              "text": "..choosing one of the principles according to business objectives.",
               "correct": false
             }
           ],
@@ -556,17 +548,17 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Transport mode produces larger packets, Tunnel mode is more secure Pre-Shared Key (PSK) takes the form of ___",
+              "text": ". Transport mode produces larger packets, Tunnel mode is more secure",
               "correct": false
             }
           ],
-          "multi": true
+          "multi": false
         },
         {
-          "question": "Pre-Shared Key (PSK) takes the form of ____",
+          "question": "Pre-Shared Key (PSK) takes the form of ___",
           "options": [
             {
-              "text": "An electronic chip device containing a secure ID",
+              "text": ". An electronic chip device containing a secure ID",
               "correct": false
             },
             {
@@ -580,15 +572,15 @@ window.QUESTION_BANK = {
             {
               "text": "A text string, entered manually by an administrator",
               "correct": true
-            },
-        
+            }
           ],
           "multi": false
         },
+        {
           "question": "Which one of the following statements about Child SAs is true?",
           "options": [
             {
-              "text": "Child SAs are established before the IKE SA",
+              "text": ". Child SAs are established before the IKE SA",
               "correct": false
             },
             {
@@ -618,11 +610,11 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Four (Transport layer)",
+              "text": ". Four (Transport layer)",
               "correct": false
             },
             {
-              "text": "Five (Session layer)",
+              "text": ". Five (Session layer)",
               "correct": false
             }
           ],
@@ -662,7 +654,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Encryption and authentication",
+              "text": ". Encryption and authentication",
               "correct": false
             },
             {
@@ -699,7 +691,6 @@ window.QUESTION_BANK = {
     {
       "id": "ipv4",
       "title": "IPV4",
-      "count": 32,
       "questions": [
         {
           "question": "Which of the following is a correct statement?",
@@ -717,7 +708,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Private IP addresses do not use subnet masks.",
+              "text": ". Private IP addresses do not use subnet masks.",
               "correct": false
             }
           ],
@@ -783,14 +774,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "190.155.63.0 If an ISP is assigned the network address 202.100.0.0/16, which of the",
+              "text": "190.155.63.0",
               "correct": true
             }
           ],
           "multi": false
         },
         {
-          "question": "following subnets could be assigned to a customer of the ISP?",
+          "question": "If an ISP is assigned the network address 202.100.0.0/16, which of the following subnets could be assigned to a customer of the ISP?",
           "options": [
             {
               "text": "35.100.0.0/18",
@@ -805,14 +796,14 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "202.100.0.0/15 If you wanted to create subnets from a Class B address, what is the minimum",
+              "text": "202.100.0.0/15",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "length subnet mask you could use?",
+          "question": "If you wanted to create subnets from a Class B address, what is the minimum length subnet mask you could use?",
           "options": [
             {
               "text": "15",
@@ -827,14 +818,14 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "18 You can decide which Class (A, B, C) a classful network address is by inspecting",
+              "text": "18",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "which octet (left to right)?",
+          "question": "You can decide which Class (A, B, C) a classful network address is by inspecting which octet (left to right)?",
           "options": [
             {
               "text": "First",
@@ -915,14 +906,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "RIP, OSPF A routing table entry includes a network address, a next hop address, and what",
+              "text": "RIP, OSPF",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "else?",
+          "question": "A routing table entry includes a network address, a next hop address, and what else?",
           "options": [
             {
               "text": "A port or interface identifier.",
@@ -944,8 +935,12 @@ window.QUESTION_BANK = {
           "multi": false
         },
         {
-          "question": "sends the packet to the predetermined next hop.",
+          "question": "When a router makes a routing decision and sends a packet to the next hop, what happens at the next hop router?",
           "options": [
+            {
+              "text": "The next hop router uses the routing decision already made by the previous router and sends the packet to the predetermined next hop.",
+              "correct": false
+            },
             {
               "text": "The next hop router makes its own routing decision and sends the packet onto the new next hop.",
               "correct": true
@@ -969,7 +964,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Only if the path is an even number of hops.",
+              "text": ". Only if the path is an even number of hops.",
               "correct": false
             },
             {
@@ -987,7 +982,7 @@ window.QUESTION_BANK = {
           "question": "What type of routers are used in ‘the cloud’?",
           "options": [
             {
-              "text": "Physical",
+              "text": ". Physical",
               "correct": false
             },
             {
@@ -1043,7 +1038,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "How quality of service (QoS) can be delivered. Knowledge Assessment — IP v4 Topology Considerations",
+              "text": "How quality of service (QoS) can be delivered.",
               "correct": true
             }
           ],
@@ -1175,7 +1170,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "To provide packet replication for multicast services.",
+              "text": ". To provide packet replication for multicast services.",
               "correct": false
             }
           ],
@@ -1185,11 +1180,11 @@ window.QUESTION_BANK = {
           "question": "What is a possible consequence when a loop forms?",
           "options": [
             {
-              "text": "The router will close down all ports.",
+              "text": ". The router will close down all ports.",
               "correct": false
             },
             {
-              "text": "The router will reset.",
+              "text": ". The router will reset.",
               "correct": false
             },
             {
@@ -1226,21 +1221,29 @@ window.QUESTION_BANK = {
           "multi": false
         },
         {
-          "question": "addresses with IP addresses.",
+          "question": "How is an IP packet transported over Ethernet?",
           "options": [
+            {
+              "text": "Ethernet frames are encapsulated within IP packets.",
+              "correct": false
+            },
+            {
+              "text": "IP packets are sent using the Ethernet frame structure, substituting MAC addresses with IP addresses.",
+              "correct": false
+            },
             {
               "text": "IP packets are encapsulated within Ethernet frames.",
               "correct": true
             },
             {
-              "text": "IP packets are sent in an Ethernet frame variant using the IPoE protocol. If a PC on a local area Ethernet network needs to communicate with a newly installed printer on the same Ethernet, how does it find the printer’s Destination",
+              "text": "IP packets are sent in an Ethernet frame variant using the IPoE protocol.",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "MAC address?",
+          "question": "If a PC on a local area Ethernet network needs to communicate with a newly installed printer on the same Ethernet, how does it find the printer’s Destination MAC address?",
           "options": [
             {
               "text": "The PC performs a DNS request.",
@@ -1255,14 +1258,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "The PC searches its routing table. CSMA/CD stands for ‘Carrier Sense Multiple Access with (...) Detection’. What is",
+              "text": "The PC searches its routing table.",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "the missing word?",
+          "question": "CSMA/CD stands for ‘Carrier Sense Multiple Access with (...) Detection’. What is the missing word?",
           "options": [
             {
               "text": "Checksum",
@@ -1291,11 +1294,11 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "It checks that all Ethernet frames are received in the correct sequence.",
+              "text": ". It checks that all Ethernet frames are received in the correct sequence.",
               "correct": false
             },
             {
-              "text": "It provides stateful security features.]",
+              "text": ". It provides stateful security features.]",
               "correct": false
             },
             {
@@ -1343,7 +1346,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "The default vector",
+              "text": ". The default vector",
               "correct": false
             }
           ],
@@ -1353,19 +1356,19 @@ window.QUESTION_BANK = {
           "question": "ARP is a widely used communications protocol for ...?",
           "options": [
             {
-              "text": "resolving routing table entries into longest matches.",
+              "text": "... resolving routing table entries into longest matches.",
               "correct": false
             },
             {
-              "text": "resolving network-layer IP addresses into link layer MAC addresses.",
+              "text": "... resolving network-layer IP addresses into link layer MAC addresses.",
               "correct": true
             },
             {
-              "text": "resolving Ethernet contention issues.",
+              "text": "... resolving Ethernet contention issues.",
               "correct": false
             },
             {
-              "text": "resolving Ethernet MAC address duplication conflicts.",
+              "text": "... resolving Ethernet MAC address duplication conflicts.",
               "correct": false
             }
           ],
@@ -1398,7 +1401,6 @@ window.QUESTION_BANK = {
     {
       "id": "ipv6",
       "title": "IPV6",
-      "count": 34,
       "questions": [
         {
           "question": "Which statement is true about dual-stack routers?",
@@ -1470,7 +1472,7 @@ window.QUESTION_BANK = {
           "question": "Which protocol came between IPv4 and IPv6?",
           "options": [
             {
-              "text": "Packetized Voice Protocol",
+              "text": ". Packetized Voice Protocol",
               "correct": false
             },
             {
@@ -1478,11 +1480,33 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Packetized Media Protocol",
+              "text": ". Packetized Media Protocol",
               "correct": false
             },
             {
               "text": "Internet Service Protocol",
+              "correct": false
+            }
+          ],
+          "multi": false
+        },
+        {
+          "question": "Which statement is true about IPv6 deployment?",
+          "options": [
+            {
+              "text": "IPv6 deployment has been slower than perhaps anticipated, but deployment is significant, and will continue to grow.",
+              "correct": true
+            },
+            {
+              "text": "IPv6 has been an unnecessary standard, and deployment has been minimal.",
+              "correct": false
+            },
+            {
+              "text": "IPv6 has only been deployed in a small number of countries and organizations, and there is no expectation that it will grow.",
+              "correct": false
+            },
+            {
+              "text": ". IPv6 deployment has quickly replaced IPv4, and IPv4 only remains in isolated ‘islands’.",
               "correct": false
             }
           ],
@@ -1540,7 +1564,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Termination and translation",
+              "text": ". Termination and translation",
               "correct": false
             },
             {
@@ -1592,7 +1616,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Eight",
+              "text": ". Eight",
               "correct": false
             }
           ],
@@ -1628,7 +1652,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "It would not be possible to use dotted-decimal notation.",
+              "text": ". It would not be possible to use dotted-decimal notation.",
               "correct": false
             },
             {
@@ -1658,7 +1682,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Leading zero suppression",
+              "text": ". Leading zero suppression",
               "correct": false
             }
           ],
@@ -1734,7 +1758,7 @@ window.QUESTION_BANK = {
           "question": "Which part of an IPv6 destination address does an IPv6 router use to make a forwarding decision for a received IPv6 packet?",
           "options": [
             {
-              "text": "Destination port",
+              "text": ". Destination port",
               "correct": false
             },
             {
@@ -1760,7 +1784,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Loopback addresses.",
+              "text": ". Loopback addresses.",
               "correct": false
             },
             {
@@ -1778,7 +1802,7 @@ window.QUESTION_BANK = {
           "question": "What dictates the use of IPv6 address space?",
           "options": [
             {
-              "text": "There are no strict standards, just recommendations.",
+              "text": ". There are no strict standards, just recommendations.",
               "correct": false
             },
             {
@@ -1830,7 +1854,11 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Advanced routers can no longer handle more than 8 fields because of the Application",
+              "text": "Advanced routers can no longer handle more than 8 fields because of the Application Specific Integrated Circuits (ASICs) used.",
+              "correct": false
+            },
+            {
+              "text": "IPv6 has no need for any of the Options that were used in IPv4.",
               "correct": false
             }
           ],
@@ -1844,7 +1872,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Destination Options",
+              "text": ". Destination Options",
               "correct": false
             },
             {
@@ -1866,7 +1894,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Traffic Class and Header Checksum",
+              "text": ". Traffic Class and Header Checksum",
               "correct": false
             },
             {
@@ -1896,7 +1924,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Traffic Class field",
+              "text": ". Traffic Class field",
               "correct": false
             }
           ],
@@ -1962,7 +1990,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "IPv6 includes an Options field in the IPv6 Main Header.",
+              "text": ". IPv6 includes an Options field in the IPv6 Main Header.",
               "correct": false
             }
           ],
@@ -2016,11 +2044,11 @@ window.QUESTION_BANK = {
           "question": "Which of the following is not a Neighbor Discovery Protocol application?",
           "options": [
             {
-              "text": "Address resolution",
+              "text": ". Address resolution",
               "correct": false
             },
             {
-              "text": "Address autoconfiguration",
+              "text": ". Address autoconfiguration",
               "correct": false
             },
             {
@@ -2046,7 +2074,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Greater throughput.",
+              "text": ". Greater throughput.",
               "correct": false
             },
             {
@@ -2086,7 +2114,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "The host can deduce its network prefix from its Link-local address.",
+              "text": ". The host can deduce its network prefix from its Link-local address.",
               "correct": false
             },
             {
@@ -2094,7 +2122,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "The host sends a ‘Prefix Solicitation’ ICMPv6 message to its local router.",
+              "text": ". The host sends a ‘Prefix Solicitation’ ICMPv6 message to its local router.",
               "correct": false
             }
           ],
@@ -2149,7 +2177,6 @@ window.QUESTION_BANK = {
     {
       "id": "ethernet",
       "title": "ETHERNET",
-      "count": 26,
       "questions": [
         {
           "question": "Which of the following does not exist in a modern network that uses switches rather than hubs.",
@@ -2203,11 +2230,11 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "no interfaces",
+              "text": ". no interfaces",
               "correct": false
             },
             {
-              "text": "all interfaces in all VLANs",
+              "text": ". all interfaces in all VLANs",
               "correct": false
             },
             {
@@ -2229,7 +2256,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Destination MAC address",
+              "text": ". Destination MAC address",
               "correct": false
             },
             {
@@ -2257,7 +2284,7 @@ window.QUESTION_BANK = {
           "question": "Which of the following OSI Layers does Ethernet operate on?",
           "options": [
             {
-              "text": "Session",
+              "text": ". Session",
               "correct": false
             },
             {
@@ -2273,14 +2300,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Application E-Line creates a virtual (i) connection between sites and E-LAN creates a virtual",
+              "text": "Application",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "(ii) connection between sites. Fill in the two blanks with the correct terms.",
+          "question": "E-Line creates a virtual (i) connection between sites and E-LAN creates a virtual (ii) connection between sites. Fill in the two blanks with the correct terms.",
           "options": [
             {
               "text": "(i) point-to-multipoint, (ii) multipoint-to-point",
@@ -2291,25 +2318,25 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "(i) multipoint-to-multipoint, (ii) point-to-point",
+              "text": ". (i) multipoint-to-multipoint, (ii) point-to-point",
               "correct": false
             },
             {
-              "text": "(i) rooted-to-multipoint, (ii) multipoint-to-point Typically, switches process frames (i) whereas bridges process frames",
+              "text": ". (i) rooted-to-multipoint, (ii) multipoint-to-point",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "(ii) . Fill in the two blanks with the correct terms.",
+          "question": "Typically, switches process frames (i) whereas bridges process frames (ii) . Fill in the two blanks with the correct terms.",
           "options": [
             {
               "text": "(i) in hardware, (ii) in software",
               "correct": true
             },
             {
-              "text": "(i) based on QoS, (ii) based on MAC addresses",
+              "text": ". (i) based on QoS, (ii) based on MAC addresses",
               "correct": false
             },
             {
@@ -2403,11 +2430,11 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Directly after the Destination Address field.",
+              "text": ". Directly after the Destination Address field.",
               "correct": false
             },
             {
-              "text": "In the Data field.",
+              "text": ". In the Data field.",
               "correct": false
             },
             {
@@ -2433,7 +2460,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "IEEE 8@6.Q in Asia and IEEE 802.1Q in the rest of the world.",
+              "text": ". IEEE 8@6.Q in Asia and IEEE 802.1Q in the rest of the world.",
               "correct": false
             }
           ],
@@ -2443,15 +2470,15 @@ window.QUESTION_BANK = {
           "question": "Which VLAN tagging operations exist?",
           "options": [
             {
-              "text": "Push, Switch, Swap",
+              "text": ". Push, Switch, Swap",
               "correct": false
             },
             {
-              "text": "Pop, Rock, Punk",
+              "text": ". Pop, Rock, Punk",
               "correct": false
             },
             {
-              "text": "Delete, Replace, Forward",
+              "text": ". Delete, Replace, Forward",
               "correct": false
             },
             {
@@ -2473,7 +2500,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "VLAN tag bundle",
+              "text": ". VLAN tag bundle",
               "correct": false
             },
             {
@@ -2487,7 +2514,7 @@ window.QUESTION_BANK = {
           "question": "What are switch ports configured as ina VLAN?",
           "options": [
             {
-              "text": "Trunk ports or Passive ports",
+              "text": ". Trunk ports or Passive ports",
               "correct": false
             },
             {
@@ -2499,7 +2526,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Dedicated ports",
+              "text": ". Dedicated ports",
               "correct": false
             }
           ],
@@ -2509,7 +2536,7 @@ window.QUESTION_BANK = {
           "question": "What are the outer and inner VLAN tags also called?",
           "options": [
             {
-              "text": "Switch tag / S-tag and Customer tag / C-tag",
+              "text": ". Switch tag / S-tag and Customer tag / C-tag",
               "correct": false
             },
             {
@@ -2521,7 +2548,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Switch tag / S-tag and Priority Code Point tag / PCP-tag",
+              "text": ". Switch tag / S-tag and Priority Code Point tag / PCP-tag",
               "correct": false
             }
           ],
@@ -2557,7 +2584,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Highly scalable",
+              "text": ". Highly scalable",
               "correct": false
             },
             {
@@ -2583,11 +2610,11 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Shared",
+              "text": ". Shared",
               "correct": false
             },
             {
-              "text": "Point-to-Point",
+              "text": ". Point-to-Point",
               "correct": false
             }
           ],
@@ -2605,7 +2632,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "In the Preamble field.",
+              "text": ". In the Preamble field.",
               "correct": false
             },
             {
@@ -2649,7 +2676,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Dedicated port",
+              "text": ". Dedicated port",
               "correct": false
             },
             {
@@ -2675,7 +2702,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Alternate port",
+              "text": ". Alternate port",
               "correct": false
             }
           ],
@@ -2685,7 +2712,7 @@ window.QUESTION_BANK = {
           "question": "RSTP includes two port roles not defined in STP. Backup is one of them, which is the other?",
           "options": [
             {
-              "text": "Dedicated",
+              "text": ". Dedicated",
               "correct": false
             },
             {
@@ -2697,7 +2724,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Designated",
+              "text": ". Designated",
               "correct": false
             }
           ],
@@ -2708,7 +2735,6 @@ window.QUESTION_BANK = {
     {
       "id": "ospf",
       "title": "OSPF",
-      "count": 14,
       "questions": [
         {
           "question": "Which area plays the main role in the OSPF concept?",
@@ -2922,9 +2948,15 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "AS External LSA BDR stands for:",
+              "text": "AS External LSA",
               "correct": false
-            },
+            }
+          ],
+          "multi": true
+        },
+        {
+          "question": "BDR stands for:",
+          "options": [
             {
               "text": "Bidirectional DR",
               "correct": false
@@ -2934,9 +2966,15 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Boundary DR Each Autonomous Boundary Router (ABR) must have at least one interface connected to the Backbone Area.",
+              "text": "Boundary DR",
               "correct": false
-            },
+            }
+          ],
+          "multi": false
+        },
+        {
+          "question": "Each Autonomous Boundary Router (ABR) must have at least one interface connected to the Backbone Area.",
+          "options": [
             {
               "text": "True",
               "correct": true
@@ -2946,7 +2984,7 @@ window.QUESTION_BANK = {
               "correct": false
             }
           ],
-          "multi": true
+          "multi": false
         },
         {
           "question": "Choose the Backbone Area.",
@@ -3007,7 +3045,6 @@ window.QUESTION_BANK = {
     {
       "id": "isis",
       "title": "ISIS",
-      "count": 27,
       "questions": [
         {
           "question": "What type of protocol is IS-IS?",
@@ -3021,7 +3058,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Distance vector",
+              "text": ". Distance vector",
               "correct": false
             },
             {
@@ -3199,7 +3236,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Speed of links",
+              "text": ". Speed of links",
               "correct": false
             },
             {
@@ -3283,7 +3320,7 @@ window.QUESTION_BANK = {
           "question": "Which statement is true regarding suboptimal routing in IS-IS networks?",
           "options": [
             {
-              "text": "It can happen when routing within an L2 area",
+              "text": ". It can happen when routing within an L2 area",
               "correct": false
             },
             {
@@ -3291,7 +3328,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "It can happen when routing within an L1 area",
+              "text": ". It can happen when routing within an L1 area",
               "correct": false
             },
             {
@@ -3309,7 +3346,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "It chooses the Level 1 or Level 2 router having the shortest path to the destination.",
+              "text": "_ It chooses the Level 1 or Level 2 router having the shortest path to the destination.",
               "correct": false
             },
             {
@@ -3519,11 +3556,11 @@ window.QUESTION_BANK = {
           "question": "What is true about a Level 1 router?",
           "options": [
             {
-              "text": "It is a backbone router",
+              "text": ". It is a backbone router",
               "correct": false
             },
             {
-              "text": "It contains both a Level 1 and a Level 2 link-state database",
+              "text": ". It contains both a Level 1 and a Level 2 link-state database",
               "correct": false
             },
             {
@@ -3564,17 +3601,16 @@ window.QUESTION_BANK = {
     {
       "id": "bgp",
       "title": "BGP",
-      "count": 24,
       "questions": [
         {
           "question": "Which of the following is not a downside of fully meshing BGP peers?",
           "options": [
             {
-              "text": "Configuration overheads",
+              "text": ". Configuration overheads",
               "correct": false
             },
             {
-              "text": "Poor scaling",
+              "text": ". Poor scaling",
               "correct": false
             },
             {
@@ -3728,15 +3764,15 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Intraconfederation BGP",
+              "text": ". Intraconfederation BGP",
               "correct": false
             },
             {
-              "text": "Interconfederation EBGP",
+              "text": "_Interconfederation EBGP",
               "correct": false
             },
             {
-              "text": "Interconfederation BGP",
+              "text": ". Interconfederation BGP",
               "correct": false
             }
           ],
@@ -3776,7 +3812,11 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "There are several routing protocols used to connect autonomous systems,",
+              "text": "There are several routing protocols used to connect autonomous systems, but BGP has become popular recently.",
+              "correct": false
+            },
+            {
+              "text": "BGP is a very popular inter-AS routing protocol, but IS-IS can also be used.",
               "correct": false
             }
           ],
@@ -3786,7 +3826,7 @@ window.QUESTION_BANK = {
           "question": "Why do you need to be careful using BGP ‘redistribute’ statements?",
           "options": [
             {
-              "text": "Because they can create network loops.",
+              "text": ". Because they can create network loops.",
               "correct": false
             },
             {
@@ -3820,25 +3860,25 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "TcP Internal BGP can be used to create what kind of distributed system, capable of aggregating",
+              "text": "TcP",
               "correct": true
             }
           ],
           "multi": false
         },
         {
-          "question": "and forwarding IP traffic in bulk?",
+          "question": "Internal BGP can be used to create what kind of distributed system, capable of aggregating and forwarding IP traffic in bulk?",
           "options": [
             {
               "text": "Packet backbone network",
               "correct": false
             },
             {
-              "text": "Data center",
+              "text": ". Data center",
               "correct": false
             },
             {
-              "text": "Ethernet switch",
+              "text": ". Ethernet switch",
               "correct": false
             },
             {
@@ -3878,11 +3918,11 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Share and redistribute",
+              "text": ". Share and redistribute",
               "correct": false
             },
             {
-              "text": "Share and announce",
+              "text": ". Share and announce",
               "correct": false
             },
             {
@@ -3896,7 +3936,7 @@ window.QUESTION_BANK = {
           "question": "Which of these four qualities is not typically used to describe BGP?",
           "options": [
             {
-              "text": "Stable",
+              "text": ". Stable",
               "correct": false
             },
             {
@@ -3908,7 +3948,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Scalable",
+              "text": ". Scalable",
               "correct": false
             }
           ],
@@ -3944,7 +3984,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "To differentiate between IBGP and EBGP-connected peers.",
+              "text": ". To differentiate between IBGP and EBGP-connected peers.",
               "correct": false
             },
             {
@@ -3966,7 +4006,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Using Notification messages.",
+              "text": ". Using Notification messages.",
               "correct": false
             },
             {
@@ -4028,7 +4068,7 @@ window.QUESTION_BANK = {
           "question": "What does the Network Layer Reachability Information (NLRI) consist of?",
           "options": [
             {
-              "text": "Prefix and Next Hop",
+              "text": ". Prefix and Next Hop",
               "correct": false
             },
             {
@@ -4040,14 +4080,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Next Hop and Length During the ‘Internal/External tiebreaker step, which type of routes will BGP remove",
+              "text": "Next Hop and Length",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "from consideration?",
+          "question": "During the ‘Internal/External tiebreaker step, which type of routes will BGP remove from consideration?",
           "options": [
             {
               "text": "All routes received via iBGP",
@@ -4095,17 +4135,16 @@ window.QUESTION_BANK = {
     {
       "id": "mpls",
       "title": "MPLS",
-      "count": 23,
       "questions": [
         {
           "question": "Which is another common name for an MPLS header?",
           "options": [
             {
-              "text": "Addition header",
+              "text": ". Addition header",
               "correct": false
             },
             {
-              "text": "In-between header",
+              "text": ". In-between header",
               "correct": false
             },
             {
@@ -4157,7 +4196,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "It adds MPLS labels to identify VPNs",
+              "text": ". It adds MPLS labels to identify VPNs",
               "correct": false
             }
           ],
@@ -4171,7 +4210,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Link Layer Discovery Protocol (LLDP) and Label Distribution Protocol (LDP)",
+              "text": ". Link Layer Discovery Protocol (LLDP) and Label Distribution Protocol (LDP)",
               "correct": false
             },
             {
@@ -4259,29 +4298,29 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "The class of the MPLS path",
+              "text": ". The class of the MPLS path",
               "correct": false
             },
             {
-              "text": "The type of Layer 3 protocol",
+              "text": ". The type of Layer 3 protocol",
               "correct": false
             },
             {
-              "text": "The payload class MPLS inserts an MPLS header in packets. What is the most common mode for",
+              "text": ". The payload class",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "how this is done?",
+          "question": "MPLS inserts an MPLS header in packets. What is the most common mode for how this is done?",
           "options": [
             {
               "text": "Frame mode",
               "correct": true
             },
             {
-              "text": "Asynchronous transfer mode",
+              "text": ". Asynchronous transfer mode",
               "correct": false
             }
           ],
@@ -4291,7 +4330,7 @@ window.QUESTION_BANK = {
           "question": "Where is the MPLS header located in a packet that contains a Layer 2 header and a payload header?",
           "options": [
             {
-              "text": "Before the Layer 2 header",
+              "text": ". Before the Layer 2 header",
               "correct": false
             },
             {
@@ -4299,7 +4338,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "After the payload",
+              "text": ". After the payload",
               "correct": false
             },
             {
@@ -4313,7 +4352,7 @@ window.QUESTION_BANK = {
           "question": "What do MPLS labels identify?",
           "options": [
             {
-              "text": "The paths with the lowest cost",
+              "text": ". The paths with the lowest cost",
               "correct": false
             },
             {
@@ -4343,7 +4382,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Label Switcher (LS)",
+              "text": ". Label Switcher (LS)",
               "correct": false
             },
             {
@@ -4387,11 +4426,11 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "No, only for circuit-based networks",
+              "text": ". No, only for circuit-based networks",
               "correct": false
             },
             {
-              "text": "No, only for packet-switched networks",
+              "text": ". No, only for packet-switched networks",
               "correct": false
             }
           ],
@@ -4431,7 +4470,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "(1) Proactive handling with recalculation and (2) inactive handling with pre-calculation",
+              "text": ". (1) Proactive handling with recalculation and (2) inactive handling with pre-calculation",
               "correct": false
             }
           ],
@@ -4445,7 +4484,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Session layer",
+              "text": ". Session layer",
               "correct": false
             },
             {
@@ -4453,7 +4492,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Data Link layer",
+              "text": ". Data Link layer",
               "correct": false
             }
           ],
@@ -4489,7 +4528,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "In a Little Fast Information Base in all MPLS routers",
+              "text": ". In a Little Fast Information Base in all MPLS routers",
               "correct": false
             },
             {
@@ -4497,7 +4536,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "In the shim header of each packet",
+              "text": ". In the shim header of each packet",
               "correct": false
             }
           ],
@@ -4573,7 +4612,7 @@ window.QUESTION_BANK = {
           "question": "For every network prefix in the FIB, LDP in the Label Edge Routers (LERs) and Label Switch Routers (LSRs) binds FECs to...?",
           "options": [
             {
-              "text": "Interfaces",
+              "text": ". Interfaces",
               "correct": false
             },
             {
@@ -4596,7 +4635,6 @@ window.QUESTION_BANK = {
     {
       "id": "qos",
       "title": "QOS",
-      "count": 21,
       "questions": [
         {
           "question": "Which of these applications is not affected so much by delay?",
@@ -4628,7 +4666,7 @@ window.QUESTION_BANK = {
           "question": "Which of these methods is not a way of increasing capacity in a network?",
           "options": [
             {
-              "text": "Increase the number of switches",
+              "text": "_ Increase the number of switches",
               "correct": false
             },
             {
@@ -4636,7 +4674,7 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Increase the number of routers",
+              "text": ". Increase the number of routers",
               "correct": false
             },
             {
@@ -4644,7 +4682,7 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "Increase the number of links / cables",
+              "text": ". Increase the number of links / cables",
               "correct": false
             }
           ],
@@ -4702,11 +4740,11 @@ window.QUESTION_BANK = {
           "question": "For what purpose was Internet traditionally used?",
           "options": [
             {
-              "text": "To watch videos",
+              "text": ". To watch videos",
               "correct": false
             },
             {
-              "text": "To play online games",
+              "text": ". To play online games",
               "correct": false
             },
             {
@@ -4768,11 +4806,11 @@ window.QUESTION_BANK = {
               "correct": true
             },
             {
-              "text": "In each router's forwarding table",
+              "text": ". In each router's forwarding table",
               "correct": false
             },
             {
-              "text": "In the content of a packet",
+              "text": ". In the content of a packet",
               "correct": false
             }
           ],
@@ -4812,14 +4850,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "Weight Even if there is plenty of bandwidth available, which of the following might still cause",
+              "text": "Weight",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "problems in the network?",
+          "question": "Even if there is plenty of bandwidth available, which of the following might still cause problems in the network?",
           "options": [
             {
               "text": "Delay",
@@ -5010,14 +5048,14 @@ window.QUESTION_BANK = {
               "correct": false
             },
             {
-              "text": "AF2 If using PWFQ, when the priorities of all the queues are the same, then the schedulers behave",
+              "text": "AF2",
               "correct": false
             }
           ],
           "multi": false
         },
         {
-          "question": "like?",
+          "question": "If using PWFQ, when the priorities of all the queues are the same, then the schedulers behave like?",
           "options": [
             {
               "text": "PFQ",
