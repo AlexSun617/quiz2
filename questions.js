@@ -558,7 +558,13 @@ window.QUESTION_BANK = {
             {
               "text": "Transport mode produces larger packets, Tunnel mode is more secure Pre-Shared Key (PSK) takes the form of ___",
               "correct": false
-            },
+            }
+          ],
+          "multi": true
+        },
+        {
+          "question": "Pre-Shared Key (PSK) takes the form of ____",
+          "options": [
             {
               "text": "An electronic chip device containing a secure ID",
               "correct": false
@@ -574,11 +580,11 @@ window.QUESTION_BANK = {
             {
               "text": "A text string, entered manually by an administrator",
               "correct": true
-            }
+            },
+        
           ],
-          "multi": true
+          "multi": false
         },
-        {
           "question": "Which one of the following statements about Child SAs is true?",
           "options": [
             {
