@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IP Networking Certification Prep</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">IP</div>
+      <div class="brand-text">
+        <h1>IP Networking Certification Prep</h1>
+        <p class="muted">Flashcard-style quizzes by topic + a randomized final test.</p>
+      </div>
+    </div>
+
+    <nav class="top-actions" aria-label="Primary">
+      <button id="homeBtn" class="btn ghost" type="button" title="Back to hub">Hub</button>
+      <button id="resetBtn" class="btn ghost" type="button" title="Reset current quiz">Reset</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HUB -->
+    <section id="hubView" class="view">
+      <div class="card">
+        <div class="card-header">
+          <h2>Choose a topic</h2>
+          <p class="muted">Pick a section to practice, or take the final test (all questions shuffled).</p>
+        </div>
+
+        <div class="hub-actions">
+          <button id="finalBtn" class="btn primary" type="button">Final Test (All Topics)</button>
+          <div id="overallStats" class="pill" aria-live="polite"></div>
+        </div>
+
+        <div id="topicGrid" class="grid" aria-label="Topics"></div>
+      </div>
+
+      <div class="card subtle">
+        <h3>How it works</h3>
+        <ul class="muted">
+          <li>Front of the card: choose your answer(s) and press <b>Submit</b>.</li>
+          <li>Back of the card: see what you picked vs. the correct answer(s).</li>
+          <li>Questions with multiple correct choices will use checkboxes automatically.</li>
+        </ul>
+        <p class="muted small">Tip: You can share a link to a topic by copying the URL after you open it (it uses the URL hash).</p>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quizView" class="view hidden" aria-live="polite">
+      <div class="card">
+        <div class="quiz-header">
+          <div>
+            <h2 id="quizTitle">Quiz</h2>
+            <p id="quizSub" class="muted"></p>
+          </div>
+          <div class="stats">
+            <div class="stat"><span class="label">Answered</span><span id="sAnswered" class="value">0</span></div>
+            <div class="stat"><span class="label">Correct</span><span id="sCorrect" class="value">0</span></div>
+            <div class="stat"><span class="label">Incorrect</span><span id="sIncorrect" class="value">0</span></div>
+            <div class="stat"><span class="label">Remaining</span><span id="sRemaining" class="value">0</span></div>
+          </div>
+        </div>
+
+        <div class="progress">
+          <div id="progressBar" class="progress-bar" style="width:0%"></div>
+        </div>
+
+        <div class="flash-wrap">
+          <div id="flashcard" class="flashcard" aria-label="Flashcard">
+            <div class="flash-inner">
+              <div class="flash-face flash-front">
+                <div class="q-meta">
+                  <span id="qIndex" class="pill"></span>
+                  <span id="qTopic" class="pill subtle hidden"></span>
+                  <span id="qMulti" class="pill warn hidden">Multiple answers</span>
+                </div>
+                <h3 id="qText" class="q-text"></h3>
+                <form id="optionsForm" class="options" autocomplete="off"></form>
+                <div class="actions">
+                  <button id="submitBtn" class="btn primary" type="button">Submit</button>
+                </div>
+              </div>
+
+              <div class="flash-face flash-back">
+                <div class="result-banner" id="resultBanner"></div>
+                <div class="answer-block">
+                  <h4>Your selection</h4>
+                  <ul id="yourSel" class="list"></ul>
+                </div>
+                <div class="answer-block">
+                  <h4>Correct answer(s)</h4>
+                  <ul id="correctSel" class="list"></ul>
+                </div>
+                <div class="actions">
+                  <button id="nextBtn" class="btn primary" type="button">Next</button>
+                  <button id="backToHubBtn" class="btn ghost" type="button">Back to hub</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="donePanel" class="done hidden">
+          <h3>Done 🎉</h3>
+          <p id="doneSummary" class="muted"></p>
+          <div class="actions">
+            <button id="restartBtn" class="btn primary" type="button">Restart this quiz</button>
+            <button id="doneHubBtn" class="btn ghost" type="button">Back to hub</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="muted small">Built as a static site for GitHub Pages.</span>
+  </footer>
+
+  <script src="./questions.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
